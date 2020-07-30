@@ -3,6 +3,12 @@ body {
     background-size: 2000px;
     
 }
+.lead1 {
+    font-size: 26px;
+}
+.lead2{
+    font-size: 30px;
+}
 .rounded float-left
 
 .navbar-brand {
@@ -11,12 +17,17 @@ body {
 .nav-link {
     font-size: 30px;
 }
-/* .lead{ 
-    font-size: 45px;
+#cantext {
+    color: antiquewhite;
 }
-.lead1{
-    font-size: 30px;
+#hsimg {
+    padding-right: 3px;
 }
-.h1{
-    font-size: 30;
-} */
+.page-footer {
+    left: 0;
+    bottom: 0;
+    width: 33%;
+    background-color: red;
+    color: white;
+    text-align: center;
+ }
