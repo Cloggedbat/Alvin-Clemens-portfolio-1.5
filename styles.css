@@ -34,3 +34,11 @@ body {
     color: white;
     text-align: center;
  }
+ Footer {
+     background-color:black;
+     color: antiquewhite;
+     padding: 3px;
+ }
+ .copy {
+     padding-top: 20px;
+ }
