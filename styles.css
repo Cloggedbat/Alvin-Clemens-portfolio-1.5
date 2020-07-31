@@ -23,16 +23,7 @@ body {
 #cantext {
     color: antiquewhite;
 }
-#hsimg {
-    padding-right: 3px;
 }
-.page-footer {
-    left: 0;
-    bottom: 0;
-    width: 33%;
-    background-color: red;
-    color: white;
-    text-align: center;
  }
  Footer {
      background-color:black;
