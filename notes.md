@@ -1,4 +1,4 @@
-So starting out on this project I have layed out daily goals. If the daily goal is meet and I feel the need to continue that will be the plan.
+So starting out on this project I have layed out daily goals. If the daily goal is meet and I feel the need to continue that will be the plan. My finnal notes are at the bottom. Engoy!
 
 Day 1
 7/26
@@ -91,3 +91,11 @@ Day three
             ** Need to chang all of my bootstrap to xs per the read me section of the hw--- i thought that that wasnt needed in BS 4.5 but ill do it just in case 
 
         $$$- made my name a secondary home button.
+
+
+
+        Final notes on the project:
+
+            It was really fun putting the site together and finding way to break it again. At one point I had the site built out like the given Img's but in the end oppted for a diffrent formant. I also used text from a recent cover letter as a place holder until I have more projects under my belt. I honestly had a few hours where I thought I was crazy, for instance I spent over 3 hours working on the about me page picture trying to get it in the right place with the text bending around it. Then there were the issues with the navbar that would work on VS code but on a live page would not. Funny story at one point it would work going from home to contact but not back, it would get stuck on profile and not go anywhere even tho it worked going down and not back up.
+
+            Also little hiden feacher is the Alvin Clemens works as a second home button so go ahead and us that. I know the code looks ugly and i have it closed up but it works, I am planning on building another page as practice so that I can refine and clean my code. Hope you enjoy the pictures and the videos, again they are just place holders until I have more work.
