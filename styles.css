@@ -1,6 +1,6 @@
 body {
     background: url(IMG_8557.JPG);
-    background-size: 2000px;
+    background-size: 1900px;
    
 }
 #nav {
@@ -12,8 +12,6 @@ body {
 .lead2{
     font-size: 30px;
 }
-.rounded float-left
-
 .navbar-brand {
     font-size: 1px;
 }
@@ -23,11 +21,9 @@ body {
 #cantext {
     color: antiquewhite;
 }
-
- 
  Footer {
-    
-     color: antiquewhite;
+     color:antiquewhite;
+     font-size: 20px;
      
  }
  .copy {
