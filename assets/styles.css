@@ -1,0 +1,69 @@
+body {
+    background: black;
+    background-size: 1900px;
+   
+}
+#nav {
+    font-size: 40px;
+}
+.lead1 {
+    font-size: 30px;
+}
+.lead2{
+    font-size: 30px;
+}
+.navbar-brand {
+    font-size: 1px;
+}
+.nav-link {
+    font-size: 30px;
+}
+#cantext {
+    color: antiquewhite;
+}
+ Footer {
+     color:black;
+     font-size: 20px;
+     
+ }
+ .copy {
+     padding-top: 20px;
+ }
+ body {
+   
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    color: #000;
+    margin: 0;
+    padding: 0;
+  }
+
+  .swiper-container {
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+
+  .swiper-slide {
+    background-position: center;
+    background-size: cover;
+    width: 400px;
+    height: 400px;
+
+  }
+
+  #Jtron {
+    border-radius: .9em;
+
+  }
+  #swiperimg1{
+    border-radius: .9em;
+
+  }
+
+#aboutBox{
+  max-width: 25rem; 
+  background-color: black;
+}
+#aboutMe{
+  color:gold;}

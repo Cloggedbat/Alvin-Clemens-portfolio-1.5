@@ -5,9 +5,11 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=\, initial-scale=1.0">
   <title>Alvin Clemens Contacts Page</title>
+  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css">
+  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
     integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="./assets/portfswiper.css">
 </head>
 
 <body>
@@ -38,55 +40,37 @@
   <br>
   <br>
   <br>
-  <div class="text-center">
+  <br>
+  <br>
+  <div class="jumbotron col-sm-10 mx-auto">
     <div class="container">
-      <h1 class="display-4">Welcome to a fresh Portfolio of a new Web-Developer</h1>
-      <p class="lead1">At this time I do not have any work to show off so here are some videos of me skiing</p>
-    </div>
+      <div class="row row-cols-1 row-cols-sm-2">
+    <h1 class="display-4">My Works So far</h1>
+    <p class="lead text-center">This is only the beging of what I have to offer and can not wait to add more complex applications as I continue on this journey</p>
   </div>
-  <br>
-  <br>
-  <div class="row row-cols-1 row-cols-sm-2" style="margin: auto;">
-    <div class="col mb-4">
-      <div class="card">
-        <iframe class="video1" height="400" src="https://www.youtube.com/embed/zRp2bQk8WTk"
-          allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen> </iframe>
-        <div class="card-body">
-          <h5 class="card-title">Shreding Stowe VT</h5>
-          <p class="card-text">This video was filmed durring the Valintines day storm of 2017</p>
-        </div>
-      </div>
+</div>
+</div>
+  <!-- Swiper -->
+  <div class="swiper-container">
+    <div class="swiper-wrapper">
+        <div class="swiper-slide">Slide 1</div>
+        <div class="swiper-slide">Slide 2</div>
+        <div class="swiper-slide">Slide 3</div>
+        <div class="swiper-slide">Slide 4</div>
+        <div class="swiper-slide">Slide 5</div>
+        <div class="swiper-slide">Slide 6</div>
+        <div class="swiper-slide">Slide 7</div>
+        <div class="swiper-slide">Slide 8</div>
+        <div class="swiper-slide">Slide 9</div>
+        <div class="swiper-slide">Slide 10</div>
     </div>
-    <div class="col mb-4">
-      <div class="card">
-        <iframe class="video1" height="400" src="https://www.youtube.com/embed/tjPDIi95dA4"
-          allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture " allowfullscreen></iframe>
-        <div class="card-body">
-          <h5 class="card-title">More of Stowe</h5>
-          <p class="card-text">As you can tell I love to ski Stowe Vermont</p>
-        </div>
-      </div>
-    </div>
-    <div class="col mb-4">
-      <div class="card">
-        <img src="./IMG_8557.JPG" class="card-img-top" alt="background">
-        <div class="card-body">
-          <h5 class="card-title">The canyons of Vermont</h5>
-          <p class="card-text">I got you there, this is actully Canyon Land National Park in </p>
-        </div>
-      </div>
-    </div>
-    <div class="col mb-4">
-      <div class="card">
-        <img src="./images/IMG_2034.JPG" class="card-img-top" alt="Top of the chin">
-        <div class="card-body">
-          <h5 class="card-title">Top of Vermont</h5>
-          <p class="card-text">If you guessed that this picture was taken at Stowe you are correct, Mont Mansfield is
-            the tallest mountain in Vermont</p>
-        </div>
-      </div>
-    </div>
-  </div>
+    <!-- Add Pagination -->
+    <div class="swiper-pagination"></div>
+</div>
+
+      
+      <div class="swiper-slide"href="https://nikolaslenning.github.io/WhatsNext/" style="background-image:url(./images/Whatnext-img.PNG)"></div>
+    
 <footer>
   <div class="row text-center copy">
     <div class="col-md-4 col-sm-12">
@@ -98,17 +82,24 @@
     </div>
   </div>
   </footer>
-</body>
+
 
 
 
 <!-- <meta charset="UTF-8">
 <meta name="viewport" content=" width=device-width, initial-scale=1.0"> -->
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
-  integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
-  integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
-  integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+crossorigin="anonymous"></script>
+<!-- <script src="https://unpkg.com/swiper/swiper-bundle.js"></script> -->
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+<script src="./assets/portfswiper.js"></script>
 
+</body>
 </html>
