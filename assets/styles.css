@@ -67,3 +67,10 @@ body {
 }
 #aboutMe{
   color:gold;}
+  
+  
+  #gitHub {
+    border-style: double;
+    background-color: white;
+    width: auto;
+  }
