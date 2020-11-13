@@ -22,5 +22,5 @@ var swiper = new Swiper('.swiper-container', {
     el: '.swiper-pagination',
   },
 });
-// making the the landing page pictures buttons
+
  
